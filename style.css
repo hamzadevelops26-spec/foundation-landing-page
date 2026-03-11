@@ -1,3 +1,65 @@
-h1 {
-  color: red;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+.hero-content {
+  width: 100%;
+  max-width: 1132px;
+  margin: 0 auto;
+}
+.hero-container {
+  background-color: #1f2939;
+  color: white;
+}
+/* header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 0;
+  margin-bottom: 4em;
+}
+.logo {
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.links {
+  display: flex;
+  list-style-type: none;
+  gap: 12px;
+}
+
+/* hero */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  padding: 48px 0;
+
+  align-items: center;
+}
+.hero-info p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+.hero-image {
+  height: 200px;
+  width: 400px;
+  background-color: #6c757d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero-button {
+  background-color: #3882fb;
+  color: white;
+  padding: 5px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 8px;
 }
