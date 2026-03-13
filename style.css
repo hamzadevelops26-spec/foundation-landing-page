@@ -112,3 +112,32 @@ body {
   font-weight: 300;
   padding: 15px;
 }
+/* action */
+.action-container {
+  background-color: #3882fb;
+  max-width: 900px;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem auto;
+  padding: 18px 100px;
+  border-radius: 5px;
+}
+.action {
+  display: flex;
+  justify-content: space-between;
+
+  width: 100%;
+  color: white;
+}
+
+.action-button {
+  padding: 5px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 8px;
+  color: white;
+  border: 1px solid white;
+}
