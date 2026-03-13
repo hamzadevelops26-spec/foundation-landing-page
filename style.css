@@ -98,3 +98,17 @@ body {
   margin-top: 5px;
   font-size: 15px;
 }
+.quote-container {
+  background-color: #e5e7eb;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.quote {
+  max-width: 1132px;
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 300;
+  padding: 15px;
+}
